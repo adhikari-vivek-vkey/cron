@@ -3,17 +3,7 @@ from __future__ import unicode_literals
 
 from django.contrib.auth.models import User
 from django.db import models
-# from django.utils import timezone
 import django
-# 'users_name': "hello",
-# 'contact_no': 9968038609,
-# 'ref_number': 7065119155,
-# 'ref_name': "references",
-# 'loan_amount': 1000,
-# 'disbursal_date': '2020-01-1003'0,
-# 'paid_status': "0",
-# Create your models here.
-# 'account_number': 123444454,
 
 
 class Profile(models.Model):
