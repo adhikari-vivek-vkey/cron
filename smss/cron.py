@@ -7,18 +7,6 @@ to = 'harshroy603@gmail.com'
 
 
 def my_scheduled_job():
-    d = {
-        'contact_no': 9968038609,
-        'loan_amount': 1000,
-        'paid_status': "0",
-        'disbursal_date': '2020-01-13',
-        'users_name': "hello",
-        'ref_number': 7065119155,
-        'ref_name': "references",
-        'account_number': 123444454,
-    }
-
-    send_message(d)
     send_mail('Celery Task Worked!', 'This is proof the task worked!', settings.DEFAULT_FROM_EMAIL, [to])
 
 

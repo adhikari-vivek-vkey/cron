@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'data',
     'django_crontab',
     'cronjobs',
@@ -44,7 +45,7 @@ INSTALLED_APPS = [
 ]
 
 CRONJOBS = [
-    ('*/1 */17 * * *', 'smss.cron.my_scheduled_job')
+    ('0 */2 * * *', 'smss.cron.my_scheduled_job')
 ]
 
 
